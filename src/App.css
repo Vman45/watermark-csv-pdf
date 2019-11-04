@@ -1,0 +1,22 @@
+html, body, .Layout, #container {
+    background: #f6f6f6;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-Content {
+    padding: 20px 25px 20px 25px;
+}
+
+.App-DragDrop-Container,
+.App-DownloadList-Container {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.App-Button-Container,
+.App-DownloadList-Container {
+    padding-top: 25px;
+}

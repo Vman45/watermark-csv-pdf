@@ -1,0 +1,9 @@
+/node_modules
+/build
+/uploads/csv/*.csv
+/uploads/pdf/*.pdf
+/uploads/output/*.zip
+/uploads/output/**/*.pdf
+.DS_Store
+.env
+*.log

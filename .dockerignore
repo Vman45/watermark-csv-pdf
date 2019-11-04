@@ -1,0 +1,8 @@
+Dockerfile
+README.md
+/node_modules
+/build
+/uploads/*
+.DS_Store
+env-example
+*.log
