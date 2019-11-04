@@ -3,6 +3,7 @@ README.md
 /node_modules
 /build
 /uploads/*
+/screenshots/*
 .DS_Store
 env-example
 *.log
