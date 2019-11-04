@@ -12,7 +12,7 @@ module.exports = class ZipController {
             });
 
             output.on('close', () => {
-                resolve({ error: false, message: 'Arquivo compactado com sucesso!' });
+                resolve({ error: false, message: 'Successfully compressed file!' });
             });
             archive.on('warning', err => {
                 if(err.code !== 'ENOENT') {
