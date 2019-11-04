@@ -12,3 +12,19 @@ docker run --name watermark-csv-pdf -p 5000:5000 -p 4000:4000 -v $(pwd)/uploads:
 ```
 
 On Web Browser: `localhost:5000`
+
+## Example 
+
+CSV file (separator is `;`):
+
+![](screenshots/csv.png)
+
+### Usage:
+
+![](screenshots/demo.gif)
+
+### Result:
+
+Ruan Klein                      | John Smith
+:------------------------------:|:----------:
+![](screenshots/sample-ruan.png)|![](screenshots/sample-john.png)
