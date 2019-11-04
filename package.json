@@ -2,6 +2,7 @@
   "name": "watermark-csv-pdf",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "devDependencies": {
     "antd": "^3.19.8",
     "nodemon": "^1.19.1",
