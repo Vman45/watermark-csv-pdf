@@ -7,6 +7,20 @@ Generate Watermark from CSV file to PDF files
 ```
 git clone https://github.com/RuanKlein/watermark-csv-pdf.git
 cd watermark-csv-pdf
+```
+
+### Local Environment
+
+```
+yarn install 
+yarn dev
+```
+
+On Web Browser: `localhost:3000`
+
+### Production Environment
+
+```
 docker build --no-cache -t ruanklein/watermark-csv-pdf .
 docker run --name watermark-csv-pdf -p 5000:5000 -p 4000:4000 -v $(pwd)/uploads:/usr/src/app/uploads -d ruanklein/watermark-csv-pdf
 ```
