@@ -7,7 +7,10 @@ Generate Watermark from CSV file to PDF files
 ```
 git clone https://github.com/RuanKlein/watermark-csv-pdf.git
 cd watermark-csv-pdf
+cp env-example .env
 ```
+
+Change `.env` to configure application name, port and host.
 
 ### Local Environment
 
